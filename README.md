@@ -1,6 +1,13 @@
 # Angular Material Extra Components (DatetimePicker, TimePicker, ColorPicker, FileInput ...) for @angular/material 17.x, 18.x, 19.x
 
 
+## Disclaimer
+
+This project is a fork of https://github.com/h2qutc/angular-material-components to be used on Angular V17+
+
+Original project was not maintained anymore. 
+
+All the credits to https://github.com/h2qutc
 
 ## Description
 
