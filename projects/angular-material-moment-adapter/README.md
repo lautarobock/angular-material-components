@@ -25,3 +25,11 @@ export class AppModule { }
 
 ## License
 MIT
+
+## Disclaimer
+
+This project is a fork of https://github.com/h2qutc/angular-material-components to be used on Angular V17+
+
+Original project was not maintained anymore. 
+
+All the credits to https://github.com/h2qutc
