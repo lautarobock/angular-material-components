@@ -3,10 +3,28 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "angular-material-color-picker": [
+        "./dist/angular-material-color-picker"
+      ],
+      "angular-material-datetime-picker": [
+        "./dist/angular-material-datetime-picker"
+      ],
+      "angular-material-datetime-picker/*": [
+        "./dist/angular-material-datetime-picker/*"
+      ],
+      "angular-material-file-input": [
+        "./dist/angular-material-file-input"
+      ],
+      "angular-material-moment-adapter": [
+        "./dist/angular-material-moment-adapter"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitOverride": false,
+    "strictNullChecks": false,
+    "noPropertyAccessFromIndexSignature": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -22,7 +40,10 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

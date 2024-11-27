@@ -1,23 +1,37 @@
 {
   "name": "angular-material-components-fork",
-  "version": "0.0.0",
+  "version": "18.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:datetime-picker": "ng build angular-material-datetime-picker",
+    "build:moment-adapter": "ng build angular-material-moment-adapter",
+    "build:color-picker": "ng build angular-material-color-picker",
+    "build:file-input": "ng build angular-material-file-input",
+    "build:all": "ng build angular-material-datetime-picker && ng build angular-material-moment-adapter && ng build angular-material-color-picker && ng build angular-material-file-input",
+    "publish:datetime-picker": "ng build angular-material-datetime-picker && cd dist/angular-material-datetime-picker && npm publish --access public && cd .. && cd ..",
+    "publish:moment-adapter": "ng build NgxMatMomentAdapter && cd dist/angular-material-components-moment-adapter && npm publish --access public  && cd .. && cd .. && cd ..",
+    "publish:color-picker": "ng build angular-material-color-picker && cd dist/angular-material-color-picker && npm publish --access public  && cd .. && cd ..",
+    "publish:file-input": "ng build NgxMatFileInput && cd dist/angular-material-components-file-input && npm publish --access public  && cd .. && cd .. && cd ..",
+    "publish": "ng build angular-material-datetime-picker && ng build angular-material-moment-adapter && ng build angular-material-color-picker && ng build angular-material-file-input && ng-packagr -p projects/angular-material-datetime-picker/ng-package.json && ng-packagr -p projects/angular-material-moment-adapter/ng-package.json && ng-packagr -p projects/angular-material-color-picker/ng-package.json && ng-packagr -p projects/angular-material-file-input/ng-package.json"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
+    "@angular/cdk": "^18.2.14",
     "@angular/common": "^18.2.0",
     "@angular/compiler": "^18.2.0",
     "@angular/core": "^18.2.0",
     "@angular/forms": "^18.2.0",
+    "@angular/material": "^18.2.14",
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "highlight.js": "^11.10.0",
+    "moment": "^2.30.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -26,6 +40,7 @@
     "@angular-devkit/build-angular": "^18.2.12",
     "@angular/cli": "^18.2.12",
     "@angular/compiler-cli": "^18.2.0",
+    "@types/highlight.js": "^10.1.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
@@ -33,6 +48,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^18.2.0",
     "typescript": "~5.5.2"
   }
 }
