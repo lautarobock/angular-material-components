@@ -13,7 +13,7 @@
     "build:file-input": "ng build angular-material-file-input",
     "build:all": "ng build angular-material-datetime-picker && ng build angular-material-moment-adapter && ng build angular-material-color-picker && ng build angular-material-file-input",
     "publish:datetime-picker": "ng build angular-material-datetime-picker && cd dist/angular-material-datetime-picker && npm publish --access public && cd .. && cd ..",
-    "publish:moment-adapter": "ng build NgxMatMomentAdapter && cd dist/angular-material-components-moment-adapter && npm publish --access public  && cd .. && cd .. && cd ..",
+    "publish:moment-adapter": "ng build angular-material-moment-adapter && cd dist/angular-material-moment-adapter && npm publish --access public  && cd .. && cd ..",
     "publish:color-picker": "ng build angular-material-color-picker && cd dist/angular-material-color-picker && npm publish --access public  && cd .. && cd ..",
     "publish:file-input": "ng build NgxMatFileInput && cd dist/angular-material-components-file-input && npm publish --access public  && cd .. && cd .. && cd ..",
     "publish": "ng build angular-material-datetime-picker && ng build angular-material-moment-adapter && ng build angular-material-color-picker && ng build angular-material-file-input && ng-packagr -p projects/angular-material-datetime-picker/ng-package.json && ng-packagr -p projects/angular-material-moment-adapter/ng-package.json && ng-packagr -p projects/angular-material-color-picker/ng-package.json && ng-packagr -p projects/angular-material-file-input/ng-package.json"
