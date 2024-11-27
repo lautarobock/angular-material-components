@@ -31,6 +31,7 @@ Choose the version corresponding to your Angular version:
 
  Angular     | angular-material-components-datetime-picker
  ----------- | -------------------
+ 18          | 18.x+
  17          | 17.x+
  
 

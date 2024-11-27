@@ -1,6 +1,6 @@
 
 
-import { NgxMatDateFormats } from 'angular-material-datetime-picker';
+import { NgxMatDateFormats } from 'angular-material-components-components-datetime-picker';
 
 const DEFAULT_DATE_INPUT = 'l, LTS';
 

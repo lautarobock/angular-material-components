@@ -54,7 +54,7 @@ export class DemoDatetimeComponent implements OnInit {
            NgxMatDatetimePickerModule, 
            NgxMatNativeDateModule, 
            NgxMatTimepickerModule 
-  } from 'angular-material-components-datetime-picker';
+  } from 'angular-material-components-components-datetime-picker';
   
 @NgModule({
   imports: [

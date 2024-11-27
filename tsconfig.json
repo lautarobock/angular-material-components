@@ -4,20 +4,20 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "angular-material-color-picker": [
-        "./dist/angular-material-color-picker"
+      "angular-material-components-color-picker": [
+        "./dist/angular-material-components-color-picker"
       ],
-      "angular-material-datetime-picker": [
-        "./dist/angular-material-datetime-picker"
+      "angular-material-components-datetime-picker": [
+        "./dist/angular-material-components-datetime-picker"
       ],
-      "angular-material-datetime-picker/*": [
-        "./dist/angular-material-datetime-picker/*"
+      "angular-material-components-datetime-picker/*": [
+        "./dist/angular-material-components-datetime-picker/*"
       ],
-      "angular-material-file-input": [
-        "./dist/angular-material-file-input"
+      "angular-material-components-file-input": [
+        "./dist/angular-material-components-file-input"
       ],
-      "angular-material-moment-adapter": [
-        "./dist/angular-material-moment-adapter"
+      "angular-material-components-moment-adapter": [
+        "./dist/angular-material-components-moment-adapter"
       ]
     },
     "outDir": "./dist/out-tsc",

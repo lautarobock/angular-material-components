@@ -13,8 +13,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared';
 import { DemoFileInputComponent } from './demo-fileinput.component';
-import { NgxMatNativeDateModule } from 'angular-material-datetime-picker';
-import { NgxMatFileInputModule } from 'angular-material-file-input';
+import { NgxMatNativeDateModule } from 'angular-material-components-datetime-picker';
+import { NgxMatFileInputModule } from 'angular-material-components-file-input';
 
 const routes: Routes = [
   { path: '', component: DemoFileInputComponent }

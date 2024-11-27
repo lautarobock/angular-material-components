@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
 import { FormControl, Validators } from '@angular/forms';
-import { MaxSizeValidator } from 'angular-material-file-input';
+import { MaxSizeValidator } from 'angular-material-components-file-input';
 
 const presetFiles = [new File([], "file 1"), new File([], "file 2")];
 const presetFile = new File([], "file 1");
@@ -56,7 +56,7 @@ export class DemoFileInputComponent implements OnInit {
 
   code1 = `npm install --save angular-material-components-file-input`;
 
-  code2 = `import { NgxMatFileInputModule } from 'angular-material-components-file-input';
+  code2 = `import { NgxMatFileInputModule } from 'angular-material-components-components-file-input';
   
   @NgModule({
      ...

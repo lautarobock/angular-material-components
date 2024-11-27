@@ -10,7 +10,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared';
 import { DemoColorpickerComponent } from './demo-colorpicker.component';
-import { MAT_COLOR_FORMATS, MatColorFormats, NgxMatColorPickerModule } from 'angular-material-color-picker';
+import { MAT_COLOR_FORMATS, MatColorFormats, NgxMatColorPickerModule } from 'angular-material-components-color-picker';
 
 const routes: Routes = [
   { path: '', component: DemoColorpickerComponent }

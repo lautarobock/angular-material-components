@@ -94,23 +94,23 @@
         }
       }
     },
-    "angular-material-datetime-picker": {
+    "angular-material-components-datetime-picker": {
       "projectType": "library",
-      "root": "projects/angular-material-datetime-picker",
-      "sourceRoot": "projects/angular-material-datetime-picker/src",
+      "root": "projects/angular-material-components-datetime-picker",
+      "sourceRoot": "projects/angular-material-components-datetime-picker/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-material-datetime-picker/ng-package.json"
+            "project": "projects/angular-material-components-datetime-picker/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-material-datetime-picker/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-material-components-datetime-picker/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-material-datetime-picker/tsconfig.lib.json"
+              "tsConfig": "projects/angular-material-components-datetime-picker/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -118,7 +118,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/angular-material-datetime-picker/tsconfig.spec.json",
+            "tsConfig": "projects/angular-material-components-datetime-picker/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -127,23 +127,23 @@
         }
       }
     },
-    "angular-material-moment-adapter": {
+    "angular-material-components-moment-adapter": {
       "projectType": "library",
-      "root": "projects/angular-material-moment-adapter",
-      "sourceRoot": "projects/angular-material-moment-adapter/src",
+      "root": "projects/angular-material-components-moment-adapter",
+      "sourceRoot": "projects/angular-material-components-moment-adapter/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-material-moment-adapter/ng-package.json"
+            "project": "projects/angular-material-components-moment-adapter/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-material-moment-adapter/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-material-components-moment-adapter/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-material-moment-adapter/tsconfig.lib.json"
+              "tsConfig": "projects/angular-material-components-moment-adapter/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -151,7 +151,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/angular-material-moment-adapter/tsconfig.spec.json",
+            "tsConfig": "projects/angular-material-components-moment-adapter/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -160,23 +160,23 @@
         }
       }
     },
-    "angular-material-color-picker": {
+    "angular-material-components-color-picker": {
       "projectType": "library",
-      "root": "projects/angular-material-color-picker",
-      "sourceRoot": "projects/angular-material-color-picker/src",
+      "root": "projects/angular-material-components-color-picker",
+      "sourceRoot": "projects/angular-material-components-color-picker/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-material-color-picker/ng-package.json"
+            "project": "projects/angular-material-components-color-picker/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-material-color-picker/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-material-components-color-picker/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-material-color-picker/tsconfig.lib.json"
+              "tsConfig": "projects/angular-material-components-color-picker/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -184,7 +184,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/angular-material-color-picker/tsconfig.spec.json",
+            "tsConfig": "projects/angular-material-components-color-picker/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -193,23 +193,23 @@
         }
       }
     },
-    "angular-material-file-input": {
+    "angular-material-components-file-input": {
       "projectType": "library",
-      "root": "projects/angular-material-file-input",
-      "sourceRoot": "projects/angular-material-file-input/src",
+      "root": "projects/angular-material-components-file-input",
+      "sourceRoot": "projects/angular-material-components-file-input/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-material-file-input/ng-package.json"
+            "project": "projects/angular-material-components-file-input/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-material-file-input/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-material-components-file-input/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-material-file-input/tsconfig.lib.json"
+              "tsConfig": "projects/angular-material-components-file-input/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -217,7 +217,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/angular-material-file-input/tsconfig.spec.json",
+            "tsConfig": "projects/angular-material-components-file-input/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

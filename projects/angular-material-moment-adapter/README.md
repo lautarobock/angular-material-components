@@ -11,7 +11,7 @@ npm install --save  angular-material-components-moment-adapter
 ## Setup
 
 ```
-import { NgxMatMomentModule } from 'angular-material-components-moment-adapter';
+import { NgxMatMomentModule } from 'angular-material-components-components-moment-adapter';
 @NgModule({
    ...
    imports: [
