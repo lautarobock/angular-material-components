@@ -30,7 +30,7 @@ export class DemoColorpickerComponent implements OnInit {
 </mat-form-field>`;
 
   public code6 = `
-import { Color } from 'angular-material-components-components-color-picker';
+import { Color } from 'angular-material-components-color-picker';
 colorCtr: AbstractControl = new FormControl(new Color(255, 243, 0), [Validators.required]);`
 
 
@@ -38,7 +38,7 @@ colorCtr: AbstractControl = new FormControl(new Color(255, 243, 0), [Validators.
 
 
   public code2 = `import { MAT_COLOR_FORMATS, NgxMatColorPickerModule, NGX_MAT_COLOR_FORMATS } 
-  from 'angular-material-components-components-color-picker'
+  from 'angular-material-components-color-picker'
 
   @NgModule({
     ...

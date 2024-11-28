@@ -1,5 +1,5 @@
 {
-  "name": "angular-material-components-components-fork",
+  "name": "angular-material-components-fork",
   "version": "18.0.2",
   "scripts": {
     "ng": "ng",
@@ -16,7 +16,13 @@
     "publish:moment-adapter": "ng build angular-material-components-moment-adapter && cd dist/angular-material-components-moment-adapter && npm publish --access public  && cd .. && cd ..",
     "publish:color-picker": "ng build angular-material-components-color-picker && cd dist/angular-material-components-color-picker && npm publish --access public  && cd .. && cd ..",
     "publish:file-input": "ng build angular-material-components-file-input && cd dist/angular-material-components-file-input && npm publish --access public  && cd .. && cd ..",
-    "publish": "npm run publish:datetime-picker && npm run publish:moment-adapter && npm run publish:color-picker && npm run publish:file-input"
+    "publish": "npm run publish:datetime-picker && npm run publish:moment-adapter && npm run publish:color-picker && npm run publish:file-input",
+    "pack:datetime-picker": "npm run build:datetime-picker && cd dist/angular-material-components-datetime-picker && npm pack && cd .. && cd ..",
+    "pack:moment-adapter": "npm run build:moment-adapter && cd dist/angular-material-components-moment-adapter && npm pack && cd .. && cd ..",
+    "pack:color-picker": "npm run build:color-picker && cd dist/angular-material-components-color-picker && npm pack && cd .. && cd ..",
+    "pack:file-input": "npm run build:file-input && cd dist/angular-material-components-file-input && npm pack && cd .. && cd ..",
+    "pack": "npm run pack:datetime-picker && npm run pack:moment-adapter && npm run pack:color-picker && npm run pack:file-input"
+    
   },
   "private": true,
   "dependencies": {
