@@ -1,5 +1,5 @@
 {
-  "name": "angular-material-file-input",
+  "name": "angular-material-components-file-input",
   "version": "18.0.2",
   "peerDependencies": {
     "@angular/common": "^18.2.0",

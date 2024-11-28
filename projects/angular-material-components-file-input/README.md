@@ -4,20 +4,20 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project angular-material-file-input` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-material-file-input`.
-> Note: Don't forget to add `--project angular-material-file-input` or else it will be added to the default project in your `angular.json` file. 
+Run `ng generate component component-name --project angular-material-components-file-input` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-material-components-file-input`.
+> Note: Don't forget to add `--project angular-material-components-file-input` or else it will be added to the default project in your `angular.json` file. 
 
 ## Build
 
-Run `ng build angular-material-file-input` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build angular-material-components-file-input` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build angular-material-file-input`, go to the dist folder `cd dist/angular-material-file-input` and run `npm publish`.
+After building your library with `ng build angular-material-components-file-input`, go to the dist folder `cd dist/angular-material-components-file-input` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test angular-material-file-input` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test angular-material-components-file-input` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 
