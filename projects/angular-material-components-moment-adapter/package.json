@@ -1,6 +1,6 @@
 {
   "name": "angular-material-components-moment-adapter",
-  "version": "18.0.2",
+  "version": "18.0.3",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
     "@angular/core": "^18.2.0",
